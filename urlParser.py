@@ -53,8 +53,8 @@ def urlparser(url):
 
     return parsed_url
 
-
 # ------------------ Testing ------------------
+
 
 urls = [
     "https://www.example.com:8080/path/page?name=parth&age=22#section1",
