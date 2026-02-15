@@ -13,7 +13,7 @@ server_socket.listen(1)
 print("Server waiting for connection...")
 
 conn, addr = server_socket.accept()
-print(f"Connected by {addr}")
+print(f"Connected by {addr}") 
 
 data = conn.recv(1024).decode("utf-8")
 
