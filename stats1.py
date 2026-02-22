@@ -21,7 +21,6 @@ proportions1 = simulate_coin(p1, n)
 
 plt.figure()
 plt.plot(range(1, n+1), proportions1)
-
 plt.xlabel("Number Of Flips (n)")
 plt.ylabel("Proportion Of Heads")
 plt.title("Proportion Of Heads Vs Number Of Flips (p = 0.3)")
